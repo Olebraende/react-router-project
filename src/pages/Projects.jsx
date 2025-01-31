@@ -7,44 +7,45 @@ const mockProjects = {
     prosjekt1: {
         title: 'Showcase 1',
         description: 'Om prosjektet...',
-        image: '/pics/image1.jpg',
+        image: import.meta.env.BASE_URL + "pics/image1.jpg",
     },
     prosjekt2: {
         title: 'Showcase 2',
         description: 'Om prosjektet...',
-        image: '/pics/image2.png',
+        image: import.meta.env.BASE_URL + "pics/image2.png",
     },
     prosjekt3: {
         title: 'Showcase 3',
         description: 'Om prosjektet...',
-        image: '/pics/image3.png',
+        image: import.meta.env.BASE_URL + "pics/image3.png",
     },
     prosjekt4: {
         title: 'Showcase 4',
         description: 'Om prosjektet...',
-        image: '/pics/image4.jpg',
+        image: import.meta.env.BASE_URL + "pics/image4.jpg",
     },
     prosjekt5: {
         title: 'Showcase 5',
         description: 'Om prosjektet...',
-        image: '/pics/image5.jpg',
+        image: import.meta.env.BASE_URL + "pics/image5.jpg",
     },
     prosjekt6: {
         title: 'Showcase 6',
         description: 'Om prosjektet...',
-        image: '/pics/image6.jpg',
+        image: import.meta.env.BASE_URL + "pics/image6.jpg",
     },
     prosjekt7: {
         title: 'Showcase 7',
         description: 'Om prosjektet...',
-        image: '/pics/image7.jpg',
+        image: import.meta.env.BASE_URL + "pics/image7.jpg",
     },
     prosjekt8: {
         title: 'Showcase 8',
         description: 'Om prosjektet...',
-        image: '/pics/image8.jpg',
+        image: import.meta.env.BASE_URL + "pics/image8.jpg",
     },
 };
+
 
 export const Projects = () => {
     const settings = {
