@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/react-router/", // Viktig: Bruk repo-navnet ditt her!
+  base: "/react-router-project/", // Bytt ut med ditt repo-navn!
 });
