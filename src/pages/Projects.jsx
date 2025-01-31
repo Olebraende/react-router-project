@@ -47,6 +47,7 @@ const mockProjects = {
 };
 
 
+
 export const Projects = () => {
     const settings = {
         dots: true,
