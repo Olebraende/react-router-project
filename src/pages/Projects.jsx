@@ -7,44 +7,44 @@ const mockProjects = {
     prosjekt1: {
         title: 'Showcase 1',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image1.jpg',
+        image: '/pics/image1.jpg', // Endret bane
     },
     prosjekt2: {
         title: 'Showcase 2',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image2.png',
+        image: '/pics/image2.png',
     },
     prosjekt3: {
         title: 'Showcase 3',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image3.png',
+        image: '/pics/image3.png',
     },
     prosjekt4: {
         title: 'Showcase 4',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image4.jpg',
+        image: '/pics/image4.jpg',
     },
     prosjekt5: {
         title: 'Showcase 5',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image5.jpg',
+        image: '/pics/image5.jpg',
     },
     prosjekt6: {
         title: 'Showcase 6',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image6.jpg',
+        image: '/pics/image6.jpg',
     },
     prosjekt7: {
         title: 'Showcase 7',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image7.jpg',
+        image: '/pics/image7.jpg',
     },
     prosjekt8: {
         title: 'Showcase 8',
         description: 'Om prosjektet...',
-        image: 'src/assets/pics/image8.jpg',
+        image: '/pics/image8.jpg',
     },
-}
+};
 
 export const Projects = () => {
     const settings = {
