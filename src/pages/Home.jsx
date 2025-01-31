@@ -1,7 +1,9 @@
+import { Projects } from "./Projects"
+
 export const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <Projects />
         </div>
     )
 }

@@ -7,7 +7,7 @@ const mockProjects = {
     prosjekt1: {
         title: 'Showcase 1',
         description: 'Om prosjektet...',
-        image: '/pics/image1.jpg', // Endret bane
+        image: '/pics/image1.jpg',
     },
     prosjekt2: {
         title: 'Showcase 2',
